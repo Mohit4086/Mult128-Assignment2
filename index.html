@@ -44,6 +44,12 @@
       </div>
     </section>
 
+    <div class="mb-3">
+        <button type="button" class="btn btn-warning">
+            Did You Know? <span class="badge bg-danger">3</span>
+        </button>
+    </div>
+
     <!-- Behavior -->
     <section id="behavior" class="mb-5">
       <h2>Behavior</h2>
@@ -74,12 +80,26 @@
       <p>The lion is classified as "Vulnerable" on the IUCN Red List due to habitat loss, human-wildlife conflict, and poaching. Conservation efforts include protected areas, anti-poaching patrols, and breeding programs. Raising awareness and supporting conservation organizations can help ensure the lion’s survival.</p>
     </section>
 
+    <div class="mt-3">
+        <label for="conservationStatus" class="form-label">Lion Population Remaining</label>
+        <div class="progress" id="conservationStatus">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                30%
+            </div>
+        </div>
+    </div>
+      
+
     <!-- Image -->
     <section id="image" class="mb-5">
       <h2>Image</h2>
+      <div class="card" style="width: 100%;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Lion in the wild" width="500"
       class="img-fluid img-thumbnail w-75">
-      <p>Image: Lion in the wild (Source: Wikipedia)</p>
+      <div class="card-body">
+      <p class="card-text">Image: Lion in the wild (Source: Wikipedia)</p>
+    </div>
+</div>
     </section>
 
     <!-- Citation -->
